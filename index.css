@@ -1,0 +1,11 @@
+#definicion {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+#imagen {
+  position: fixed;
+  top: 4rem;
+  right: 5rem;
+}
