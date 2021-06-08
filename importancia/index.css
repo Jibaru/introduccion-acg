@@ -1,25 +1,18 @@
 #tarjeta {
-    position: absolute;
-    top: 5rem;
-    left: 10rem;
-    width: 540px;
-  }
+  position: absolute;
+  top: 5rem;
+  left: 10rem;
+  width: 540px;
+}
 
 #imagen1 {
-    position: fixed;
-    top: 5rem;
-    right: 5rem;
-  }
-  
-#imagen2 {
-    position: fixed;
-    top: 21rem;
-    right: 5rem;
-  }
+  position: fixed;
+  top: 5rem;
+  right: 5rem;
+}
 
-#tarjeta1 {
-    position: absolute;
-    top: 25rem;
-    left: 10rem;
-    width: 540px;
-  }
+#imagen2 {
+  position: fixed;
+  top: 21rem;
+  right: 5rem;
+}
