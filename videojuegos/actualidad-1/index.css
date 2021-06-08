@@ -1,0 +1,14 @@
+#contenido {
+  width: 35rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+#imagen {
+  position: absolute;
+  width: fit-content;
+  top: 2rem;
+  right: 32rem;
+  z-index: -1;
+}

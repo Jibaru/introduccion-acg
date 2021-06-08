@@ -1,6 +1,18 @@
-#tarjeta {
-    position: absolute;
-    top: 8rem;
-    left: 10rem;
-    width: 590px;
-  }
+#contenido {
+  width: 30rem;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+}
+
+#imagen {
+  width: fit-content;
+  position: absolute;
+  left: 45rem;
+  bottom: 10rem;
+  text-align: center;
+}
+
+#imagen img {
+  width: 300px;
+}

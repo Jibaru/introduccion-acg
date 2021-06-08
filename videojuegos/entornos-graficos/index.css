@@ -1,0 +1,22 @@
+#contenido {
+  width: 35rem;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+}
+
+#imagen-opengl {
+  position: absolute;
+  width: fit-content;
+  top: 2rem;
+  right: 2rem;
+  z-index: -1;
+}
+
+#imagen-directx {
+  position: absolute;
+  width: fit-content;
+  bottom: 2rem;
+  left: 20%;
+  z-index: -1;
+}
