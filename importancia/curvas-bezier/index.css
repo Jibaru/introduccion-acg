@@ -1,0 +1,11 @@
+#tarjeta {
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+    width: 540px;
+  }
+  #imagen {
+    position: fixed;
+    top: 15rem;
+    right: 5rem;
+  }
