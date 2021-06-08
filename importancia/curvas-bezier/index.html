@@ -7,7 +7,10 @@
     <title>Aplicación en videojuegos</title>
     <link rel="stylesheet" href="../../lib/normalize/normalize.css" />
     <link rel="stylesheet" href="../../lib/animate/css/animate.min.css" />
-    <link rel="stylesheet" href="../../lib/fontawesome-5.15.3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="../../lib/fontawesome-5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="../../compartido.css" />
     <link rel="stylesheet" href="index.css" />
   </head>
@@ -82,25 +85,53 @@
         <div class="ola"></div>
       </div>
       <!-- inicio contenido-->
-      <div id="imagen" class="app__tarjeta animate__animated animate__bounceInRight" style="text-align:center">
+      <div
+        id="imagen"
+        class="app__tarjeta animate__animated animate__bounceInRight"
+        style="text-align: center"
+      >
         <figure>
-          <img src="../../imagenes/Bezier.png" alt="Image of a laptop" height="140px"/>
+          <img
+            src="../../imagenes/Bezier.png"
+            alt="Image of a laptop"
+            height="140px"
+          />
         </figure>
       </div>
-      <div id="tarjeta" class="app__tarjeta animate__animated animate__zoomInLeft">
+      <div
+        id="tarjeta"
+        class="app__tarjeta animate__animated animate__zoomInLeft"
+      >
         <p class="animate__animated animate__zoomInDown">
-        <b>Propiedades y superficies de Bézier</b><br><br>
-          Invarianza afín: La forma de de una curva de Bézier no varía mediante una transformación afín, homotecias, traslaciones y rotaciones.<br><br>
-          Envoltura convexa: La curva de Bézier siempre está contenida dentro de la envoltura convexa de los puntos de control.<br><br>
-          Simetría: Si invertimos el orden de los puntos de control, la curva de Bézier resultante tras el cambio es la misma pero recorrida en sentido inverso.<br><br>
-          Disminución de la variación:El  número  de  intersecciones  entre  la  curva  de  Bezier  y  una recta  es  menor  o  igual  al  número  de  intersecciones  de  la  misma  recta  con  su  polígono de control.  Intuitivamente,  esto nos dice que el polígono de control ya nos da una idea aproximada de por dónde irá la curva.<br><br>
-          Pseudo-control local: Si movemos el punto de control Pi a Pi’, entonces todos los puntos de la curva se moverán respecto a la curva original en la dirección del vector PiPi’. Aunque el cambio no afecta a todos los puntos por igual, acentuándose en la zona más cercana al punto P1 en imperceptible en los puntos alejados del mismo.
+          <b>Propiedades y superficies de Bézier</b><br /><br />
+          Invarianza afín: La forma de de una curva de Bézier no varía mediante
+          una transformación afín, homotecias, traslaciones y rotaciones.<br /><br />
+          Envoltura convexa: La curva de Bézier siempre está contenida dentro de
+          la envoltura convexa de los puntos de control.<br /><br />
+          Simetría: Si invertimos el orden de los puntos de control, la curva de
+          Bézier resultante tras el cambio es la misma pero recorrida en sentido
+          inverso.<br /><br />
+          Disminución de la variación:El número de intersecciones entre la curva
+          de Bezier y una recta es menor o igual al número de intersecciones de
+          la misma recta con su polígono de control. Intuitivamente, esto nos
+          dice que el polígono de control ya nos da una idea aproximada de por
+          dónde irá la curva.<br /><br />
+          Pseudo-control local: Si movemos el punto de control Pi a Pi’,
+          entonces todos los puntos de la curva se moverán respecto a la curva
+          original en la dirección del vector PiPi’. Aunque el cambio no afecta
+          a todos los puntos por igual, acentuándose en la zona más cercana al
+          punto P1 en imperceptible en los puntos alejados del mismo.
         </p>
       </div>
       <!-- fin contenido-->
-      <a class="app__siguiente" href="../curvas-bspline/index.html">
-        <i class="fas fa-arrow-right"></i>
-      </a>
+      <div class="app__flechas">
+        <a href="../index.html">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <a href="../algoritmo-casteljau/index.html">
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
     </main>
   </body>
 </html>
