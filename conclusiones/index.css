@@ -1,0 +1,15 @@
+#seccion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    width: calc(100% - 5rem);
+    height: 100%;
+    position: relative;
+    z-index: -1;
+  }
+  
+  #contenido {
+    width: 30rem;
+  }
