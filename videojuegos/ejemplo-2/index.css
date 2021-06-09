@@ -1,0 +1,16 @@
+#tarjeta {
+    position: absolute;
+    top: 8rem;
+    left: 12rem;
+    width: 590px;
+  }
+  #imagen {
+    position: fixed;
+    top: 5rem;
+    right: 12rem;
+  }
+  #imagen2 {
+    position: fixed;
+    top: 25rem;
+    right: 12rem;
+  }
