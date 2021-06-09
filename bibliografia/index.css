@@ -1,6 +1,15 @@
+#seccion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  width: calc(100% - 5rem);
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
 
-  #tarjeta {
-    position: fixed;
-    top: 4rem;
-    right: 15rem;
-  }
+#tarjeta {
+  width: 90%;
+}
