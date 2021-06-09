@@ -1,11 +1,23 @@
+#seccion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  width: calc(100% - 5rem);
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+
 #tarjeta {
-    position: absolute;
-    top: 8rem;
-    left: 12rem;
-    width: 590px;
-  }
-  #imagen {
-    position: fixed;
-    top: 15rem;
-    right: 20rem;
-  }
+  width: 400px;
+}
+
+#imagen {
+  text-align: center;
+}
+
+#imagen img {
+  width: 300px;
+}
