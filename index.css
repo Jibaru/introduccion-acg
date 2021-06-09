@@ -1,11 +1,19 @@
-#definicion {
-  position: absolute;
-  top: 10%;
-  left: 20%;
+#seccion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  width: calc(100% - 5rem);
+  height: 100%;
+  position: relative;
+  z-index: -1;
 }
 
-#imagen {
-  position: fixed;
-  top: 4rem;
-  right: 5rem;
+#tarjeta {
+  width: 50%;
+}
+
+#tarjeta header {
+  text-align: center;
 }
